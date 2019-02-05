@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+      body{
+        font-size: 2em;
+      }
+      h1 {
+        text-align: center;
+        font-size: 2em;  /*   Formato en pixeles, dos veces el tamaño de la fuente */
+        font-weight: bold;
+        font-family: arial, sans-serif;
+        text-decoration: underline;
+        text-transform: uppercase;
+        word-spacing: .2em;
+
+      }
+      div {
+        /*  color: red;
+          color: #00FF00;
+          color:#00F;
+          color: rgb(196,196,196);
+          color: rgba(,32,32,0.7); */
+          color: red;
+          background-color: black;
+          text-align: jusrify;
+          letter-spacing: .3em;
+      }
+      div + div {
+        background-color: #FCC;
+
+      }
+      div p {
+        background-color: orange;
+      }
+      div > strong { /* solo afecta a los hijos directos de una etiqueta */
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+  <h1>T&iacutetulo</h1>
+<div class="">
+<p> Parrafo 1 <strong>negrita</strong> </p>
+<strong>negrita</strong>
+</div>
+<p> Parrafo 2 </p>
+<div class="">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </body>
+</html>
